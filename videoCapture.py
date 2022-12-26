@@ -1,10 +1,11 @@
 """
-Video capture with python and OpenCv2
+    Video capture with python and OpenCv2
+
 """
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture(0) # To connect to  your camera.
+cap = cv2.VideoCapture(0)  # To connect to  your camera.
 
 # un comment this line if you have a video file.
 # cap = cv2.VideoCapture("PATH TO YOUR VIDEO FILE")
